@@ -20,7 +20,7 @@ A hard problem is selected, which has the following configuration:
 
 The vanilla backtracking method in `backtrack.py` takes 6.0973 seconds to solve in my computer. 
 
-`csp.py` implements the Constrains Statisfication Problem (CSP) techniques, including forward filtering and minimum remaining values, and only takes 0.1900 seconds to solve.
+`csp.py` implements the Constrains Statisfication Problem (CSP) techniques, including forward filtering and minimum remaining values, and only takes 0.1900 seconds to solve the same problem.
 
 CSP is one of the traditional AI techniques. To know more, visit the CS188 course from UC Berkeley.
 https://inst.eecs.berkeley.edu/~cs188/
