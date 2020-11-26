@@ -92,5 +92,8 @@ if __name__ == '__main__':
     start = time.time()
     CSP = makeCSP(X)
     solve(X, CSP)
-    print('elapsed %.4f seconds.' % (time.time() - start))
+    end = time.time()
+    
+    print(X)
+    print('elapsed %.4f seconds.' % (end - start))
 

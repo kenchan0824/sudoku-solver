@@ -57,4 +57,7 @@ if __name__ == '__main__':
 
     start = time.time()
     sovle(X)
-    print('elapsed %.4f seconds.' % (time.time() - start))
+    end = time.time()
+    
+    print(X)
+    print('elapsed %.4f seconds.' % (end - start))
